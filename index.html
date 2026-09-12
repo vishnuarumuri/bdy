@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Surprise 🎂</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- Background -->
+<div class="background">
+    <div class="stars"></div>
+</div>
+
+<!-- Balloons -->
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+
+<!-- Hearts -->
+<div class="heart">💖</div>
+<div class="heart">💕</div>
+<div class="heart">💗</div>
+
+
+<!-- =========================
+     LOGIN PAGE
+========================= -->
+
+<section id="loginPage" class="page active">
+
+    <div class="login-box">
+
+        <div class="login-icon">🎁</div>
+
+        <h1>Birthday Surprise</h1>
+
+        <p>
+            Someone has prepared a special surprise for you 💕
+        </p>
+
+        <input
+            id="name"
+            class="input"
+            type="text"
+            placeholder="Enter your name"
+        >
+
+        <input
+            id="password"
+            class="input"
+            type="password"
+            placeholder="Enter surprise password"
+        >
+
+        <button class="btn" onclick="login()">
+            🔐 Open Surprise
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WISHES PAGE
+========================= -->
+
+<section id="wishesPage" class="page">
+
+    <div class="content">
+
+        <div class="small-title">
+            ✨ Today is your special day ✨
+        </div>
+
+        <div class="title">
+            Happy Birthday!
+        </div>
+
+        <p class="wish">
+            🎈 May your life always be filled with happiness,
+            love, laughter and beautiful memories. 🎈
+            <br>
+            May every dream you have come true.
+        </p>
+
+        <div class="cake">
+
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-body"></div>
+
+        </div>
+
+        <button class="btn next" onclick="showMessage()">
+            💌 Read Your Message
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     BIG MESSAGE PAGE
+========================= -->
+
+<section id="messagePage" class="page">
+
+    <div class="message-box">
+
+        <h2 id="personalTitle">
+            To Someone Special 💖
+        </h2>
+
+        <p>
+            On this beautiful day, I just want to remind you
+            how wonderful and special you are. 🌸
+            <br><br>
+
+            May you always have a reason to smile,
+            someone to make you laugh,
+            and countless beautiful moments to remember.
+
+            <br><br>
+
+            I hope this new chapter of your life brings
+            you everything your heart wishes for.
+            Never stop dreaming, never stop believing,
+            and never stop being the amazing person you are. ✨
+
+            <br><br>
+
+            Today is not just another day...
+            <br>
+            <strong>
+                Today is the celebration of YOU! 🎂🎉
+            </strong>
+        </p>
+
+        <div class="signature">
+            With lots of love ❤️
+        </div>
+
+        <button class="btn next" onclick="celebrate()">
+            🎉 Celebrate!
+        </button>
+
+    </div>
+
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+
