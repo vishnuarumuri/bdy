@@ -20,7 +20,7 @@ function login() {
        you want.
     */
 
-    if (password !== "1234") {
+    if (password !== "LOVEYOU") {
 
         alert("Wrong surprise password 😜");
 
